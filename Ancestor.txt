@@ -3353,7 +3353,7 @@ function Ancestor:TomahawkAxeFling(State)
                     AxeFling.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
                     AxeFling.P = 65000 * 3
                     AxeFling.Position = ActualPosition
-                    Main.CanCollide = false
+                    Main.CanCollide = true
                 
                     repeat Maid.Timer:Wait()
                         
